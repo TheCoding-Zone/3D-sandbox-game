@@ -10,9 +10,6 @@ window.fullscreen = True  # Set to fullscreen
 window.fullscreen_size = (1920, 1080)  # Set resolution of fullscreen display
 window.position = (0, 0)  # Move window to top-left corner of screen
 
-# Define a Voxel class.
-# By setting the parent to scene and the model to 'cube', it becomes a 3D button.
-
 class Voxel(Button):
     def __init__(self, position=(0, 0, 0)):
         super().__init__(
